@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import type { Shot } from '../types';
+import type { Shot } from '../src/types';
 
 const handleGeminiError = (error: unknown, res: VercelResponse) => {
     console.error("Gemini API Error:", error);
