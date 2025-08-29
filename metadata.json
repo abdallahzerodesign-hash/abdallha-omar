@@ -1,0 +1,7 @@
+{
+  "name": "مولد الفيديو بالذكاء الاصطناعي",
+  "description": "تطبيق ويب لإنشاء مقاطع فيديو من خلال أوامر نصية وصور اختيارية باستخدام Google Gemini API. مستوحى من أدوات مثل Runway.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
